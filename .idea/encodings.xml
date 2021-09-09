@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/JILU/10bestfit/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/10bestfit/GSE14728.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/10bestfit/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/11bestfit/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/11bestfit/GSE14728.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/11bestfit/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/11bestfit/GSE42408old.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/11bestfit/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/11bestfit/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/11bestfit_0.05/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/21bestfit/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/21bestfit/GSE14728.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/21bestfit/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/21bestfit/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/21bestfit/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/5bestfit/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/5bestfit/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/GSE14728.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/aaa/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/aaa/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE14728.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE30464.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE30464_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE65046.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE65046_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE71723.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE71723_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE145709_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE14728_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE30464.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE30464_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE42408_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE46205_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE65046_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE71723_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/GSE76613_new.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/acc/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/acc/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/acc/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/acc/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/gene_GSE14728.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/gene_GSE30464.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/ensemble classifier_cut3operation/gene_GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/geneForSearch/GSE42408old.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp/GSE65046.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gpForSearch/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_0.001/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_0.001/GSE42408_NEW.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_0.001_mtree/acc/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_0.001_mtree/acc/GSE14728.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_0.001_mtree/acc/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_0.001_mtree/acc/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_0.001_mtree/rank1/gene_GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_0.001_mtree/rank1/gene_GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_add_lenind/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_add_lenind/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_add_lenind/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_add_lenind/GSE65046.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_add_lenind/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_addoperate_attrnum/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_addoperate_attrnum/GSE14728.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_addoperate_attrnum/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_addoperate_attrnum/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_addoperate_attrnum/GSE65046.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_addoperate_attrnum/GSE71723.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_addoperate_attrnum/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_new/GSE145709.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_new/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_new/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_new/GSE65046.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_new/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_no0.001/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_no0.001/GSE42408_NEW.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_no0.001/GSE46205.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/gp_no0.001/GSE76613.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/shiyan/GSE42408.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JILU/shiyan/GSE46205.txt" charset="GBK" />
+  </component>
+</project>
