@@ -10,14 +10,14 @@ from a_others.parameters import *
 from a_others.func_tools import *
 
 
-# 统计叶子结点个数
+# Count the number of leaf nodes
 def count_leaf_nodes(ind):
     ind_str = str(ind)
     leaf_nodes = ind_str.count("f")
     return leaf_nodes
 
 
-#  统计选择出来的特征
+#  Statistically selected features
 def count_selected_feat(ind, pset):
     list = []
     ind_str = str(ind)
@@ -31,7 +31,6 @@ def count_selected_feat(ind, pset):
 
 def gp_classifier(data_training, data_testing, feat_num, instanceNum):
     # defined a new primitive set for strongly typed GP
-    #  创建一个迭代器，它返回指定次数的对象。如果未指定，则无限返回对象。
     pset = gp.PrimitiveSetTyped("MAIN", itertools.repeat(float, feat_num), float, "f")
 
     # print("pset.arguments:", pset.arguments)
@@ -40,6 +39,8 @@ def gp_classifier(data_training, data_testing, feat_num, instanceNum):
     # pset.addPrimitive(operator.and_, [bool, bool], bool)
     # pset.addPrimitive(operator.or_, [bool, bool], bool)
     # pset.addPrimitive(operator.not_, [bool], bool)    toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.expr)
+
+    # add terminal set
     def Div(left, right):
         try:
             return left / right
@@ -67,12 +68,14 @@ def gp_classifier(data_training, data_testing, feat_num, instanceNum):
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
     toolbox.register("compile", gp.compile, pset=pset)
 
+
     def classes(func, datas):
         if func(datas[:-1]) >= 0:
             return 1.0
         else:
             return 0.0
 
+    # Individual evaluation function
     def evalfunc(individual, all_datas):
         if len(all_datas) == int(instanceNum * 0.7):
         # if len(all_datas) == int(instanceNum):
@@ -102,11 +105,11 @@ def gp_classifier(data_training, data_testing, feat_num, instanceNum):
     toolbox.register("expr_mut", gp.genFull, min_=0, max_=3)
     toolbox.register("mutate", gp.mutUniform, expr=toolbox.expr_mut, pset=pset)
 
-    # 初始化种群
+    # Initial population
     # random.seed(seed)
     pop = toolbox.population(n=N_POP)
-
     hof = tools.HallOfFame(11)
+
     stats = tools.Statistics(lambda ind: ind.fitness.values)
     stats.register("平均值", numpy.mean)
     stats.register("标准差", numpy.std)
@@ -116,14 +119,15 @@ def gp_classifier(data_training, data_testing, feat_num, instanceNum):
     # print("统计器注册的函数：", stats.functions.items())
     # print(stats.fields)
 
-    # 装饰器
+    # Decorator
     toolbox.decorate("mate", gp.staticLimit(key=operator.attrgetter("height"), max_value=8))
     toolbox.decorate("mutate", gp.staticLimit(key=operator.attrgetter("height"), max_value=8))
 
-    # 开始进化
+    # Start to evolve
     algorithms.eaSimple(pop, toolbox, CXPB, MUTPB, N_GEN, stats, halloffame=hof, verbose=True)
     print("-" * 30 + "进化完成" + "-" * 30)
 
+    # testing result
     print(str(len(hof.items)) + '个最优个体')
     for item in hof.items:
         print(item.fitness, item)
