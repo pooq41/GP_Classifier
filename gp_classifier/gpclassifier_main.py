@@ -4,15 +4,15 @@ import random
 import numpy as np
 
 dir_name = "../datasets/arff"
-# GSES = ['GSE42408', 'GSE46205', 'GSE76613', 'GSE145709', 'GSE14728']
-GSES = ['GSE42408']
-resultspath = '../JILU/aaa/'
-cishu = 1
+# GSES = ['GSE42408', 'GSE46205', 'GSE76613', 'GSE145709', 'GSE14728']  # datasets we used
+GSES = ['GSE145709']  # dataset runningza
+resultspath = '../JILU/1_0.01/'  # experiment result write path
+cishu = 30  # number of program runs
 
 
 def main():
     for GSE in GSES:
-        print(GSE)
+        # Load the dataset and initialize the variables
         rd = RD()
         all_datas = rd.read_arff(dir_name, GSE)
         all_datas = rd.mms(all_datas)
@@ -27,6 +27,7 @@ def main():
         acc_all = []
 
         for i in range(cishu):
+            # Get training set and testing set
             data_training = random.sample(all_datas, int(len(all_datas) * 0.7))
             # data_training = random.sample(all_datas, int(len(all_datas)))
             data_testing = [i for i in all_datas if i not in data_training]
@@ -50,11 +51,12 @@ def main():
         acc_avg = acc_sum / cishu
         selected_feat_num_avg = feat_sum / cishu
 
+        # Write experimental results
         with open(resultspath + GSE + '.txt', 'w') as f:
 
             f.write('样本数：' + str(len(all_datas)) + '\t原始特征数：' + str(feat_num) + '\n')
             f.write("平均准确率:" + str(acc_avg) + '\n最大值:' + str(max(acc_all)) + '\t最小值：' + str(min(acc_all)) +
-                    '\t标准差:' + str(np.std(acc_all)) + "平均特征数:" + str(selected_feat_num_avg)+'\n')
+                    '\t标准差:' + str(np.std(acc_all)) + "平均特征数:" + str(selected_feat_num_avg) + '\n')
             f.write('\n')
             for item in range(len(selected_feat_all)):
                 f.write('第%d次：\n' % item)
